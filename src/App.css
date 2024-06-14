@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* ----- Reset ----- */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+  background-color: #05292e;
+  color: white;
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+ul {
+  list-style: none;
+}
+input,
+button {
+  display: inline-block;
+  cursor: pointer;
+  font-size: inherit;
+  text-align: center;
+}
+
+button {
+  border: none;
+}
+/* ----- App ----- */
+.app_title {
+  text-align: center;
+  padding: 20px;
+}
+.app_banner {
+  background-image: url('../Rick&Morty.jpg');
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app_form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.app_location{
+  display: flex;
+  justify-content: center;
+}
+.app_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
+  padding: 20px;
+}
+.app_formInput {
+  border-radius: 7px 0 0 7px;
+  border: none;
+  padding: 5px 15px;
+}
+.app_formBtn {
+  border-radius: 0 7px 7px 0;
+  padding: 5px 15px;
+  background-color: #71a821;
+  color: #ecf3e3;
+}
