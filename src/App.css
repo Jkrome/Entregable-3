@@ -39,7 +39,7 @@ button {
   padding: 20px;
 }
 .app_banner {
-  background-image: url('../Rick&Morty.jpg');
+  background-image: url('../RickMorty.jpg');
   width: 100%;
   height: 180px;
   background-size: cover;
